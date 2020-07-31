@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition!</title>
+    <link href="../math.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <section id="mul-sec1">
+    <h1>Please select the numbers of digits.</h1>
+    
+     
+    <input type="number" id="num1"  class="link" ></textarea>
+    <h3 id="addition-home-section" class="link"><b>plus</b></h3>
+    <input type="number" id="num2"  class="link" ></textarea>
+    <button id="go-button" >Go!</button>
+    </section>
+
+    <section id="mul-sec" style="display:none;">
+        <h1 id="test">Addition! Happy Math!</h1> 
+        <h1>What is:</h1>
+        <h3 id="question"></h3>
+        <textarea id="answer" rows="2" cols="10"></textarea><br/>
+        <button id="submit" onmouseup="check()">Submit</button><br/>
+        <h3 id="answer-display" style="display:none;"></h3>
+        <span id="next-button" onclick="nextQuestion()" style="display:none;"></span><br/><br/>
+        <h3>Want to go to anothor page?  Use these links:</h3>
+        <a class="link" href="../index.html">Home Page</a> <h3 class="link">OR</h3> <a class="link" href="./addition-home.html">Level Select</a>
+    
+        <footer>
+            <p id="copyright">&copy; Advay Palnitkar</p>
+        </footer>
+     </section>
+    <script src="addition.js" type="text/javascript"></script>
+</body>
+</html>
