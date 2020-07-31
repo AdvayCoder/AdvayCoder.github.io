@@ -48,7 +48,9 @@ go.onclick = () => {
     y1 = generateRandomInt(digit2.value);
 
     if (x1 < y1) {
-        x1 += 2;
+        let tmp = x1;
+        x1=y1;
+        y1 = tmp;
     }
     //show question section and hide digit section
     showhide(document.getElementById('mul-sec1'));
@@ -100,6 +102,11 @@ function nextQuestion() {
     //generate multiplication operands
     x1 = generateRandomInt(digit1.value);
     y1 = generateRandomInt(digit2.value);
+    if (x1 < y1) {
+        let tmp = x1;
+        x1=y1;
+        y1 = tmp;
+    }
     document.getElementById('answer').value = '';
 
     showhide(document.querySelector('#answer-display'));
