@@ -46,6 +46,10 @@ go.onclick = () => {
     //generate multiplication operands
     x1 = generateRandomInt(digit1.value);
     y1 = generateRandomInt(digit2.value);
+
+    if (x1 < y1) {
+        x1 += 2;
+    }
     //show question section and hide digit section
     showhide(document.getElementById('mul-sec1'));
     showhide(document.getElementById('mul-sec'));
