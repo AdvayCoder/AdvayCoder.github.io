@@ -6,10 +6,10 @@ body {
     
     }
     
-    #go-button, #submit, #next-button1 {
+    #go-button, #submit {
         font-family: "Pangolin", cursive;
-        background-color: #3b8beb;
-        color: #b23850;
+        background-color: #c4dfe6;
+        color: #003b46;
         cursor: pointer;
     }
     
@@ -79,3 +79,5 @@ body {
         width: 850px;
         border-radius: 20px;
     }
+
+    
