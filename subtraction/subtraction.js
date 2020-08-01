@@ -104,7 +104,7 @@ function nextQuestion() {
     y1 = generateRandomInt(digit2.value);
     if (x1 < y1) {
         let tmp = x1;
-        x1=y1;
+        x1 = y1;
         y1 = tmp;
     }
     document.getElementById('answer').value = '';

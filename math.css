@@ -1,80 +1,81 @@
 body {
-background-color: lightblue;
-font-family: "Pangolin", cursive;
-color: rgb(2, 255, 129);
-font-weight: bold;
-
-}
-
-#go-button, #submit, #next-button {
+    background-color: #FBE8A6;
     font-family: "Pangolin", cursive;
-    background-color: rgb(2, 255, 129);
-    color: white;
-}
-
-label {
-    font-family: "Pangolin", cursive;
-    background-color: rgb(2, 255, 129);
-    color: white;
-    border-radius:  10px;
-    margin-right: 90px; 
-}
-
-#mul-sec, #mul-sec1, #mul-sec2, #addition-section {
-    text-align: center;
-}
-
-#answer {
-    font-family: "Pangolin", cursive;
-}
-
-#copyright {
-    text-align: center;
-    margin-top: 200px;
-}
-
-#division-copyright {
-    text-align: center;
-    margin-top: 160px;
-}
-
-#test {
-    font-size: 40px;
-}
-
-h1, h2, p, h3 {
-    background-color: white;
-    border-radius: 20px;
-}
-
-#title {
-    text-align: center;
-}
-
-.sections {
-    text-align: center;
-}
-
-.addition-level {
-    margin-right: 50px;
-    font-size: 40px;
-}
-
-#addition-home-section {
-    text-align: center;
-}
-
-.link {
-    margin-right: 50px;
-    display: inline;
-    background-color: white;
-}
-
-.link-section {
-    margin-right: 50px;
-    text-align: center;
-}
-
-.section {
-margin-right: 30px;
-}
+    color: #05386B;
+    font-weight: bold;
+    
+    }
+    
+    #go-button, #submit, #next-button1 {
+        font-family: "Pangolin", cursive;
+        background-color: #3b8beb;
+        color: #b23850;
+        cursor: pointer;
+    }
+    
+    
+    
+    #mul-sec, #mul-sec1, #mul-sec2, #addition-section {
+        text-align: center;
+    }
+    
+    #answer {
+        font-family: "Pangolin", cursive;
+    }
+    
+    #copyright {
+        text-align: center;
+        margin-top: 200px;
+    }
+    
+    #division-copyright {
+        text-align: center;
+        margin-top: 160px;
+    }
+    
+    #test {
+        font-size: 40px;
+    }
+    
+    h1, h2, p, h3 {
+        background-color: #F4976C;
+        border-radius: 10px;
+    }
+    
+    #title {
+        text-align: center;
+    }
+    
+    .sections {
+        text-align: center;
+    }
+    
+    .addition-level {
+        margin-right: 50px;
+        font-size: 40px;
+    }
+    
+    #addition-home-section {
+        text-align: center;
+    }
+    
+    .link {
+        margin-right: 50px;
+        display: inline;
+        background-color: white;
+    }
+    
+    .link-section {
+        margin-right: 50px;
+        text-align: center;
+    }
+    
+    .section {
+    margin-right: 30px;
+    }
+    
+    #math-img {
+        height: 500px;
+        width: 850px;
+        border-radius: 20px;
+    }
